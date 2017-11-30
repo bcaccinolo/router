@@ -1,16 +1,5 @@
 
-
-## Todo
-
- - DONE pouvoir lancer tous les tests d'un coup.
-
- - DONE faire une passe sur les commentaires.
-
- - publier sur github.
-
-  - préparer un article de blog pour cela en utilisant les buzz words.
-
-## How to test
+## How to test it
 
 ```bash
 php -S localhost:3000
@@ -19,12 +8,14 @@ Navigate to http://localhost:3000/
 
 ## View all the defined routes
 
-Navigate to http://localhost:3000/routes
+This url http://localhost:3000/routes will list all the existing routes.
+It is interessant to have this overview when debugging your routes.
 
-# How to use it ?
+## How to use it ?
+
+Here is an example showing how to defie routes.
 
 ```php
-
 require('router.php');
 
 $router = new Router();
